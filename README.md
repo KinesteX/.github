@@ -3,7 +3,7 @@
 ### Easily transform your platform with our SDK: white-labeled workouts with precise motion tracking and real-time feedback tailored for accuracy and engagement
 
 Jump to an example in your programming language:
-|[**Flutter**](https://github.com/KinesteX/KinesteX-SDK-Flutter) |[**React Native**](https://github.com/KinesteX/KinesteX-SDK-ReactNative) |[**Swift**](https://github.com/KinesteX/KinesteX-SDK-Swift) | [**Kotlin**](https://github.com/KinesteX/KinesteX-SDK-Kotlin)| [**HTML & JS**]([https://github.com/V-m1r/KinesteX-B2B-JS](https://github.com/KinesteX/KinesteX-SDK-HTML-JS)) | [**React Progressive Web App**](https://github.com/V-m1r/KinesteX-B2B-AI-Fitness-and-Physio/tree/main/PWA-KinesteX) |
+|[**Flutter**](https://github.com/KinesteX/KinesteX-SDK-Flutter) |[**React Native**](https://github.com/KinesteX/KinesteX-SDK-ReactNative) |[**Swift**](https://github.com/KinesteX/KinesteX-SDK-Swift) | [**Kotlin**](https://github.com/KinesteX/KinesteX-SDK-Kotlin)| [**HTML & JS**](https://github.com/KinesteX/KinesteX-SDK-HTML-JS) | [**React Progressive Web App**](https://github.com/V-m1r/KinesteX-B2B-AI-Fitness-and-Physio/tree/main/PWA-KinesteX) |
 ---------|-------------|------------|------------|---------------------------|--------------|
 
 https://github.com/V-m1r/KinesteX-B2B-AI-Fitness-and-Physio/assets/62508191/ac4817ca-9257-402d-81db-74e95060b153
@@ -46,7 +46,7 @@ Or, alternatively:
 
 # Once you have contacted us, you may
 Refer to packages based on your programming language:
-|[**Flutter**](https://github.com/KinesteX/KinesteX-SDK-Flutter) |[**React Native**](https://github.com/KinesteX/KinesteX-SDK-ReactNative) |[**Swift**](https://github.com/KinesteX/KinesteX-SDK-Swift) | [**Kotlin**](https://github.com/KinesteX/KinesteX-SDK-Kotlin)| [**HTML & JS**]([https://github.com/V-m1r/KinesteX-B2B-JS](https://github.com/KinesteX/KinesteX-SDK-HTML-JS)) | [**React Progressive Web App**](https://github.com/V-m1r/KinesteX-B2B-AI-Fitness-and-Physio/tree/main/PWA-KinesteX) |
+|[**Flutter**](https://github.com/KinesteX/KinesteX-SDK-Flutter) |[**React Native**](https://github.com/KinesteX/KinesteX-SDK-ReactNative) |[**Swift**](https://github.com/KinesteX/KinesteX-SDK-Swift) | [**Kotlin**](https://github.com/KinesteX/KinesteX-SDK-Kotlin)| [**HTML & JS**](https://github.com/KinesteX/KinesteX-SDK-HTML-JS) | [**React Progressive Web App**](https://github.com/V-m1r/KinesteX-B2B-AI-Fitness-and-Physio/tree/main/PWA-KinesteX) |
 ---------|-------------|------------|------------|---------------------------|--------------|
 
 For any questions, please contact: support@kinestex.com
