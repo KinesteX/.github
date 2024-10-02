@@ -1,6 +1,6 @@
-# [KinesteX AI Fitness SDK](https://kinestex.com)
-## INTEGRATE AI TRAINER IN YOUR APP IN MINUTES
-### Easily transform your platform with our SDK: white-labeled workouts with precise motion tracking and real-time feedback tailored for accuracy and engagement
+# [Precise Motion Tracking and Analysis SDK](https://kinestex.com)
+## Stay Ahead with KinesteX AI Motion Tracking.
+### White-labeled motion tracking SDK with ready-made or custom AI experiences, boosting your app’s user engagement and revenue
 
 Jump to an example in your programming language:
 |[**Flutter**](https://github.com/KinesteX/KinesteX-SDK-Flutter) |[**React Native**](https://github.com/KinesteX/KinesteX-SDK-ReactNative) |[**Swift**](https://github.com/KinesteX/KinesteX-SDK-Swift) | [**Kotlin**](https://github.com/KinesteX/KinesteX-SDK-Kotlin)| [**HTML & JS**](https://github.com/KinesteX/KinesteX-SDK-HTML-JS) | [**React Progressive Web App**](https://github.com/KinesteX/KinesteX-SDK-PWA) |
@@ -9,7 +9,12 @@ Jump to an example in your programming language:
 https://github.com/V-m1r/KinesteX-B2B-AI-Fitness-and-Physio/assets/62508191/ac4817ca-9257-402d-81db-74e95060b153
 
 
-KinesteX revolutionizes fitness and health industries with our cutting-edge embeddable SDK. Using device's camera, our AI precisely analyzes human movements in real-time, providing instant, expert-level guidance tailored to the individual's form. Our movements recognition models consistently exceed 90% accuracy, enhancing user's workout experience, and helping them achieve their fitness goals faster. Our AI Fitness Trainer is available for your programming language, we have created light-weight packages for Flutter, SwiftUI, React Native, Kotlin, PWA. In case your programming language is missing, please contact us and we will create a custom example for you and guide you through the process!
+KinesteX offers a powerful motion tracking SDK that seamlessly integrates into your platform. 
+Choose between ready-made workouts, plans, challenges, AI assessments, or create custom experiences with our advanced motion tracking.
+
+Our white-label solution supports any camera-enabled device across Android, iOS, web, and gaming platforms, with SDKs for React Native, Flutter, Kotlin, Swift, Java, PWA, and JavaScript for quick integration.
+
+KinesteX’s real-time AI motion tracking boosts engagement, retention, and revenue while providing valuable data insights to create personalized, growth-driving experiences
 
 ## Available data types
  
