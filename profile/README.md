@@ -42,15 +42,19 @@ PostMessage events are sent to parent windows/webviews for integration with nati
 ### Workout Overview Data Structure
 ```typescript
 {
-  workout: string,              // Workout name
-  total_time_spent: number,     // Total seconds
-  total_repeats: number,        // Total reps completed
-  total_calories: string,       // Calories burned (decimal)
-  percentage_completed: string, // Completion percentage (decimal)
-  total_mistakes: number,       // Total mistakes made
-  total_max_reps: number,       // Maximum possible reps
-  total_accuracy_score: number, // Overall accuracy score
-  total_max_time: number        // Maximum allocated time
+      workout_title: string,                  // Workout name
+      workout_id: string,                     // Unique workout ID
+      target_duration_seconds: number,        // Target workout duration
+      completed_reps_count: number,           // Total completed reps
+      target_reps_count: number,              // Total target reps
+      calories_burned: number,                // Calories burned (2 decimal places)
+      completion_percentage: number,          // Workout completion % (2 decimal places)
+      total_mistakes: number,                 // Total mistake count
+      accuracy_score: number,                 // Overall accuracy (0-100)
+      efficiency_score: number,               // Efficiency metric (0-100)
+      total_exercise: number,                 // Number of exercises
+      actual_hold_time_seconds: number,       // Time in correct position (timer-based)
+      target_hold_time_seconds: number        // Target hold time (timer-based exercises)
 }
 ```
 
@@ -64,38 +68,39 @@ PostMessage events are sent to parent windows/webviews for integration with nati
 ### Exercise Completed Data Structure
 ```typescript
 {
-  exerciseTitle: string,        // Exercise name
+  exercise_title: string,        // Exercise name
   time_spent: number,           // Seconds spent
   repeats: number,              // Reps completed
-  totalRepeats: number,         // Required reps
-  totalCountdown: number,       // Countdown time
+  total_reps: number,         // Required reps
+  total_duration: number,       // Countdown time
   calories: number,             // Calories burned
-  exerciseId: string,           // Exercise ID
-  exercise: string,             // Exercise ID (duplicate)
+  exercise_id: string,           // Exercise ID
   mistakes: Array<{             // Mistakes made
     mistake: string,
     count: number
   }>,
-  averageAccuracy?: number      // Average accuracy (0-1, optional)
+  average_accuracy?: number      // Average accuracy (0-1, optional)
 }
 ```
 
 ### Exercise Overview Item Structure
 ```typescript
 {
-  time_spent: number,           // Seconds spent
-  repeats: number,              // Reps completed
-  total_required_reps: number,  // Required reps
-  total_required_time: number,  // Required time
-  calories: string,             // Calories (decimal)
-  exercise: string,             // Exercise name
-  exercise_id: string,          // Exercise ID
-  mistakes: Array<{             // Mistakes made
-    mistake: string,
-    count: number
-  }>,
-  accuracyReps?: number[],      // Per-rep accuracy (optional)
-  averageAccuracy?: number      // Average accuracy (optional)
+      exercise_title: string,            // exercise name
+      exercise_id: string,               // Unique exercise ID
+      time_spent: number,                // Time on exercise in seconds
+      perfect_hold_position: number,     // Time in correct position (timer-based)
+      repeats: number,                   // Reps completed
+      total_required_reps: number,       // Target reps
+      total_required_time: number,       // Target time in seconds
+      calories: number,                  // Calories burned (2 decimal places)
+      mistakes: Array<{                  // Detailed mistake breakdown
+        mistake: string,                 // Mistake description
+        count: number                    // Occurrence count
+      }>,
+      mistake_count: number,             // Total mistakes for exercise
+      accuracy_reps?: number[],          // Optional: Per-rep accuracy scores
+      average_accuracy?: number          // Optional: Average accuracy (0-100)
 }
 ```
 
